@@ -7,9 +7,7 @@
 header {
   position: relative;
   height: 850px;
-  background-color: blue;
-
-
+  background-color: red;
 }
 
 .header-container {
@@ -23,7 +21,7 @@ header {
 }
 
 .header-top {
-  background-color: red;
+  background-color: blue;
 }
 .menu-inline {
   list-style: none;
@@ -49,6 +47,7 @@ header {
   float: left;
   width: 50%;
   text-align: left;
+  padding-right: 200px;
 
 }
 
@@ -61,6 +60,7 @@ header {
   float: right;
   width: 50%;
   text-align: right;
+  padding-left: 200px;
 }
 
 .header-top li {
@@ -72,6 +72,25 @@ header {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.login {
+  background-color: white;
+  color: orange;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: orange;
+  padding: 10px 15px;
+  font-size: 10px;
+}
+
+.orange-top {
+  background-color: orange;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 10px;
 }
 
 .header-bottom {
@@ -92,13 +111,15 @@ header {
 .header-bottom-logo {
   float: left;
   width: 50%;
-  text-align: center;
+  text-align: left;
+  padding-left: 200px;
 }
 
 .nav-bottom-right {
   float: right;
   width: 50%;
   text-align: right;
+  padding-left: 200px;
 }
 
 .nav-bottom-right {
@@ -126,20 +147,38 @@ header {
 }
 
 .header-central-foto {
-  
   height: 1000px;
   background-color: violet;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: 100%;
+}
 
+.slogan {
+  width: 60%;
+  margin: auto;
 
+}
 
+h1 {
+  padding-top: 50px;
+}
 
+h5 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h6 {
+  padding-top: 30px;
+}
 
-
-
-
+.orange {
+  background-color: orange;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 15px 25px;
+  font-size: 10px;
 
 
 }

@@ -6,8 +6,6 @@
 
 header {
   position: relative;
-  height: 850px;
-  background-color: red;
 }
 
 .header-container {
@@ -16,7 +14,7 @@ header {
 }
 
 .container {
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 
@@ -72,6 +70,10 @@ header {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.fa-search {
+  color: #1DADC4;
 }
 
 .login {
@@ -147,7 +149,7 @@ header {
 }
 
 .header-central-foto {
-  height: 1000px;
+  height: 935px;
   background-color: violet;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
@@ -155,7 +157,7 @@ header {
 }
 
 .slogan {
-  width: 60%;
+  width: 75%;
   margin: auto;
 
 }
@@ -179,6 +181,68 @@ h6 {
   border: none;
   padding: 15px 25px;
   font-size: 10px;
+}
 
+main {
+  position: relative;
+  height: 150px;
+  background-color: red;
+}
 
+.main-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container-cubo {
+float: left;
+width: 100%;
+text-align: left;
+}
+
+.container-cubo {
+  height: 900px;
+  background-color: green;
+}
+
+.cubo {
+  padding-left: 700px;
+  margin-top: 70px;
+}
+
+.testo-cubo {
+  line-height: 20px;
+  text-align: center;
+}
+
+.central-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.book {
+  float: left;
+  width: 50%;
+}
+
+.testo-book {
+  float: right;
+  width: 50%;
+}
+
+.book {
+  height: 200px;
+  border-color: red;
+}
+
+.book-free {
+  height: 300px;
+  width: 300px;
+  
+}
+
+.testo-book {
+  height: 200px;
+  background-color: pink;
 }

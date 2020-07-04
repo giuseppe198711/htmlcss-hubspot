@@ -126,13 +126,16 @@ header {
 }
 
 .header-central-foto {
-
+  
+  height: 1000px;
   background-color: violet;
-  width: 80%;
-  height: 700px;
-  float: left;
-  margin: auto;
-  display: block;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+
+
 
 
 

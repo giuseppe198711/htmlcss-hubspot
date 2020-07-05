@@ -43,9 +43,10 @@ header {
 
 .nav-top-left {
   float: left;
-  width: 50%;
+  width: 53%;
   text-align: left;
   padding-right: 200px;
+
 
 }
 
@@ -56,7 +57,7 @@ header {
 
 .nav-top-right {
   float: right;
-  width: 50%;
+  width: 31%;
   text-align: right;
   padding-left: 200px;
 }
@@ -108,6 +109,7 @@ header {
 .header-bottom-logo {
   height: 70px;
   line-height: 90px;
+
   }
 
 .header-bottom-logo {
@@ -115,11 +117,12 @@ header {
   width: 50%;
   text-align: left;
   padding-left: 200px;
+
 }
 
 .nav-bottom-right {
   float: right;
-  width: 50%;
+  width: 40%;
   text-align: right;
   padding-left: 200px;
 }
@@ -149,7 +152,7 @@ header {
 }
 
 .header-central-foto {
-  height: 935px;
+  height: 900px;
   background-color: violet;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
@@ -162,16 +165,19 @@ header {
 
 }
 
-h1 {
+.h1-slogan {
   padding-top: 50px;
+  margin-left: 200px;
 }
 
-h5 {
+.h5-slogan {
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-left: 200px
 }
-h6 {
+.h6-slogan {
   padding-top: 30px;
+  margin-left: 200px;
 }
 
 .orange {
@@ -181,6 +187,7 @@ h6 {
   border: none;
   padding: 15px 25px;
   font-size: 10px;
+  margin-left: 200px;
 }
 
 main {
@@ -201,8 +208,8 @@ text-align: left;
 }
 
 .container-cubo {
-  height: 900px;
-  background-color: green;
+  height: 650px;
+  background-color: #f5f8fa;
 }
 
 .cubo {
@@ -221,28 +228,194 @@ text-align: left;
   clear: both;
 }
 
+.central-container {
+  background-color: #fff;
+  width: 75%;
+  height: 370px;
+  margin: auto;
+  /* border: 1px solid grey; */
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+
+}
+
 .book {
   float: left;
-  width: 50%;
+  width: 35%;
 }
 
 .testo-book {
   float: right;
-  width: 50%;
+  width: 65%;
+
 }
 
 .book {
-  height: 200px;
-  border-color: red;
+  /* height: 400px;
+  background-color: red; */
+  width: 40%;
 }
 
 .book-free {
-  height: 300px;
-  width: 300px;
-  
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 300px;
+
 }
 
-.testo-book {
-  height: 200px;
-  background-color: pink;
+.orange-book {
+  background-color: orange;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 15px 25px;
+  font-size: 10px;
+  margin-left: 350px;
 }
+
+hr {
+
+  border: 1px solid  black;
+  width: 400px;
+  margin-left: 300px;
+}
+
+h1 {
+  padding-top: 50px;
+}
+
+h5 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+h6 {
+  padding-top: 20px;
+}
+
+
+
+.testo-book {
+  /* height: 400px;
+  background-color: pink; */
+  width: 60%;
+
+}
+
+.pre-lista-check {
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sezione1 {
+  float: left;
+  width: 33.33%;
+  margin: 2px solid black;
+  height: 600px;
+
+
+
+}
+
+.sezione1>h3, .sezione2>h3, .sezione3>h3 {
+  color: black;
+}
+
+.palline {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+
+}
+
+section h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.sezione1 hr {
+  color: black;
+  width: 270px;
+  display: block;
+  margin: 0 auto;
+}
+
+.check-main1-list  {
+  margin-left: 200px;
+  list-style: none;
+}
+
+.far {
+  background-color: orange;
+}
+
+section h5 {
+   padding-top: 20px;
+   padding-bottom: 30px;
+   text-align: center;
+   line-height: 130%;
+}
+
+section h2 {
+   padding-top: 20px;
+   padding-bottom: 30px;
+   text-align: center;
+   line-height: 130%;
+}
+
+
+.sezione2 {
+  float: left;
+  width: 33.33%;
+}
+
+.borsa {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.sezione2 hr {
+  color: black;
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.sezione3 {
+  float: left;
+  width: 33.33%;
+
+}
+
+.tavolo {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+  }
+
+.sezione3 hr {
+  color: black;
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+  }

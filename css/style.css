@@ -192,8 +192,8 @@ header {
 
 main {
   position: relative;
-  height: 150px;
-  background-color: red;
+  height: 2000px;
+  background-color: #f5f8fa;
 }
 
 .main-container::after {
@@ -309,22 +309,13 @@ h6 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .sezione1 {
   float: left;
   width: 33.33%;
   margin: 2px solid black;
-  height: 600px;
-
+  height: 650px;
+  background-color: #fff;
+  margin-top: 50px;
 
 
 }
@@ -382,6 +373,9 @@ section h2 {
 .sezione2 {
   float: left;
   width: 33.33%;
+  height: 650px;
+  background-color: #fff;
+  margin-top: 50px;
 }
 
 .borsa {
@@ -402,6 +396,9 @@ section h2 {
 .sezione3 {
   float: left;
   width: 33.33%;
+  height: 650px;
+  background-color: #fff;
+  margin-top: 50px;
 
 }
 
@@ -418,4 +415,123 @@ section h2 {
   width: 80px;
   display: block;
   margin: 0 auto;
+  }
+
+  .orange-book1 {
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 15px 25px;
+    font-size: 10px;
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+
+
+  .main2 {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #06A5BD;
+    width: 100%;
+  }
+
+  .text-main2 {
+
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .griglia-main2 {
+
+    background-color: #06A5BD;
+    height: 500px;
+
+
+  }
+
+
+  .box-griglia-main2 {
+    position: relative;
+    height: 400px;
+    width: 60%;
+    background-color: #fff;
+    margin: auto
+  }
+
+  .box1 {
+    position: absolute;
+    width: 288px;
+    height: 200px;
+    background-color: red;
+  }
+
+  .box2 {
+    position: absolute;
+    width: 288px;
+    height: 200px;
+    background-color: black;
+    margin-left: 288px;
+
+
+  }
+
+  .box3 {
+    position: absolute;
+    width: 288px;
+    height: 200px;
+    background-color: green;
+    margin-left: 576px;
+
+  }
+
+  .box4 {
+    position: absolute;
+    width: 288px;
+    height: 200px;
+    background-color: yellow;
+    margin-left: 864px;
+  }
+
+
+
+  .box5 {
+    position: absolute;
+    width: 288px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 200px;
+
+
+  }
+  .box6 {
+    position: absolute;
+    width: 288px;
+    height: 200px;
+    background-color: grey;
+    margin-top: 200px;
+    margin-left: 288px;
+
+  }
+
+  .box7 {
+    position: absolute;
+    width: 288px;
+    height: 200px;
+    background-color: violet;
+    margin-top: 200px;
+    margin-left: 576px;
+
+  }
+
+  .box8 {
+    position: absolute;
+    width: 288px;
+    height: 200px;
+    background-color: orange;
+    margin-top: 200px;
+    margin-left: 864px;
+
   }

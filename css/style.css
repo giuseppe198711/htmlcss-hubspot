@@ -104,6 +104,10 @@ header {
   float: left;
   text-align: left;
 }
+.footer-logo {
+  height: 100px;
+  width: 100px;
+}
 
 .nav-bottom-right {
   float: right;
@@ -144,7 +148,7 @@ header {
   background-color: #B0EBEA;
   height: 82px;
   width: 15%;
-  margin-top: 264px;
+  margin-top: 258px;
   border: 3px solid #33475C;
   border-right: none;
   border-left: none;
@@ -157,10 +161,11 @@ header {
 
 .h1-slogan {
   padding-top: 50px;
+  line-height: 50px;
 }
 
 .h5-slogan {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
   line-height: 20px;
 }
@@ -295,6 +300,8 @@ h6 {
   border-radius: 5px;
   box-shadow: 3px 3px 3px 3px lightgrey;
   margin-bottom: 50px;
+  margin-left: 50px;
+
 }
 
 .sezione1>h3, .sezione2>h3, .sezione3>h3 {
@@ -355,8 +362,8 @@ section h2 {
   height: 670px;
   background-color: #fff;
   margin-top: 50px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
   border-radius: 5px;
   box-shadow: 3px 3px 3px 3px lightgrey;
   margin-bottom: 50px;
@@ -386,6 +393,7 @@ section h2 {
   border-radius: 5px;
   box-shadow: 3px 3px 3px 3px lightgrey;
   margin-bottom: 50px;
+
 }
 
 .tavolo {
@@ -748,7 +756,7 @@ section h2 {
     border: none;
     padding: 15px 25px;
     font-size: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
     }
 
   .woman {
@@ -766,14 +774,15 @@ section h2 {
 
 .container-main4 {
   width: 100%;
-  height: 600px;
   background-color: #33475B;
+  height: 500px;
 }
 
 .main4 {
-  height: 400px;
   width: 80%;
   margin: auto;
+
+
 }
 
 .link1 {
@@ -845,18 +854,67 @@ section h2 {
 }
 
 .lingue {
-  width: 100%;
+
   text-align: center;
 }
+
 .lingue-list li {
   display: inline;
   padding-right: 20px;
   color: white;
 }
 
+footer {
+  position:
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  height: 200px;
+
+}
+
 .sep-footer {
   width: 100%;
-  margin: auto;
-  margin-top: 20px;
+  background-color: #fff;
+  margin-top: 62px;
+}
+
+.footer-left {
+  float: left;
+  width: 50%;
+  height: 200px;
+  background-color: #33475B;
   color: white;
+
+}
+
+.logo-footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: white;
+  margin-left: 20%;
+}
+
+p {
+  margin-left: 20%;
+}
+
+.footer-right {
+  float: right;
+  width: 50%;
+  height: 200px;
+  background-color: #33475B;
+}
+
+
+.link-footer li {
+  display: inline;
+  padding-right: 20px;
+  color: white;
+}
+
+.link-footer {
+  margin-top: 60px;
+  margin-left: 60%;
 }

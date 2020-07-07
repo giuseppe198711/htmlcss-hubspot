@@ -22,9 +22,9 @@ header {
   list-style: none;
   text-align: center;
 }
+
 .menu-inline li {
   display: inline-block;
-
 }
 
 .header-top {
@@ -51,7 +51,6 @@ header {
 
 .nav-top-right {
   float: right;
-
   text-align: right;
   padding-left: 200px;
 }
@@ -167,7 +166,6 @@ header {
 }
 .h6-slogan {
   padding-top: 30px;
-
 }
 
 .orange {
@@ -177,7 +175,6 @@ header {
   border: none;
   padding: 15px 25px;
   font-size: 10px;
-
 }
 
 main {
@@ -225,7 +222,6 @@ text-align: left;
   margin: auto;
   border-radius: 5px;
   box-shadow: 3px 3px 3px 3px lightgrey;
-
 }
 
 .book {
@@ -237,7 +233,6 @@ text-align: left;
   float: right;
   width: 60%;
   line-height: 20px;
-
 }
 
 .book {
@@ -249,7 +244,6 @@ text-align: left;
   height: 200px;
   width: 200px;
   margin-left: 250px;
-
 }
 
 .orange-book {
@@ -263,7 +257,6 @@ text-align: left;
 }
 
 hr {
-
   border: 1px solid  black;
   width: 400px;
   margin-left: 300px;
@@ -276,20 +269,15 @@ hr {
 .testo-book > h5 {
   padding-top: 30px;
   padding-bottom: 30px;
-
-
-
 }
+
 h6 {
   padding-top: 20px;
 }
 
-
-
 .testo-book {
   margin-top: 10px;
   width: 60%;
-
 }
 
 .pre-lista-check {
@@ -307,10 +295,6 @@ h6 {
   border-radius: 5px;
   box-shadow: 3px 3px 3px 3px lightgrey;
   margin-bottom: 50px;
-
-
-
-
 }
 
 .sezione1>h3, .sezione2>h3, .sezione3>h3 {
@@ -323,8 +307,6 @@ h6 {
   display: block;
   margin: 0 auto;
   padding-top: 30px;
-
-
 }
 
 section h3 {
@@ -333,6 +315,7 @@ section h3 {
   font-size: 30px;
   text-align: center;
 }
+
 .sezione1 hr {
   color: black;
   width: 270px;
@@ -346,12 +329,9 @@ section h3 {
 }
 
 .far {
-
   color: #fff;
   border-radius: 50%;
   background-color: #FF7A59;
-
-
 }
 
 section h5 {
@@ -406,7 +386,6 @@ section h2 {
   border-radius: 5px;
   box-shadow: 3px 3px 3px 3px lightgrey;
   margin-bottom: 50px;
-
 }
 
 .tavolo {
@@ -435,7 +414,6 @@ section h2 {
   margin-top: 50px;
   }
 
-
   .main2 {
     content: "";
     display: table;
@@ -453,7 +431,6 @@ section h2 {
   .griglia-main2 {
     height: 450px;
     background-color: #06A5BD;
-
   }
 
   .box-griglia-main2 {
@@ -461,8 +438,7 @@ section h2 {
     height: 400px;
     width: 60%;
     margin: auto;
-    margin-top: 100px;
-
+    margin-top: 100px
   }
 
   .box1 {
@@ -587,8 +563,6 @@ section h2 {
     border: 1px solid white;
     border-bottom: none;
     border-right: none;
-
-
   }
 
   .mondo {
@@ -609,7 +583,6 @@ section h2 {
     border: 1px solid white;
     border-bottom: none;
     border-right: none;
-
   }
 
   .chat {
@@ -732,7 +705,6 @@ section h2 {
   .classpass {
     width: 100px;
     height: 40px;
-
   }
 
   .partner7 {
@@ -745,20 +717,17 @@ section h2 {
     width: 100px;
     height: 20px;
     margin-top: 10px;
-
   }
 
   .partner8 {
     float: right;
     width: 15%;
     height: 100px;
-
   }
 
   .subaru {
     width: 100px;
     height: 40px;
-
   }
 
   .star {
@@ -766,7 +735,6 @@ section h2 {
     width: 50%;
     height: 350px;
     background-color: white;
-
   }
 
   .star-text {
@@ -788,14 +756,12 @@ section h2 {
     width: 50%;
     background-color: white;
     height: 350px;
-
   }
 
   .woman-photo {
     height: 300px;
     width: 250px;
     margin-left: 200px;
-
   }
 
 .container-main4 {
@@ -808,7 +774,6 @@ section h2 {
   height: 400px;
   width: 80%;
   margin: auto;
-
 }
 
 .link1 {
@@ -887,7 +852,6 @@ section h2 {
   display: inline;
   padding-right: 20px;
   color: white;
-
 }
 
 .sep-footer {
@@ -895,5 +859,4 @@ section h2 {
   margin: auto;
   margin-top: 20px;
   color: white;
-
 }

@@ -9,7 +9,7 @@ header {
 }
 
 .header-container {
-  background-color: green;
+  background-color: #f5f8fa;
   border-bottom: 1px solid black;
 }
 
@@ -18,9 +18,6 @@ header {
   margin: auto;
 }
 
-.header-top {
-  background-color: blue;
-}
 .menu-inline {
   list-style: none;
   text-align: center;
@@ -43,11 +40,8 @@ header {
 
 .nav-top-left {
   float: left;
-  width: 53%;
   text-align: left;
   padding-right: 200px;
-
-
 }
 
 .nav-top-left li {
@@ -57,7 +51,7 @@ header {
 
 .nav-top-right {
   float: right;
-  width: 31%;
+
   text-align: right;
   padding-left: 200px;
 }
@@ -88,16 +82,12 @@ header {
 }
 
 .orange-top {
-  background-color: orange;
+  background-color: #FF7A59;
   color: white;
   border-radius: 3px;
   border: none;
   padding: 10px 15px;
   font-size: 10px;
-}
-
-.header-bottom {
-  background-color: yellow;
 }
 
 .header-bottom::after {
@@ -109,22 +99,16 @@ header {
 .header-bottom-logo {
   height: 70px;
   line-height: 90px;
-
-  }
+}
 
 .header-bottom-logo {
   float: left;
-  width: 50%;
   text-align: left;
-  padding-left: 200px;
-
 }
 
 .nav-bottom-right {
   float: right;
-  width: 40%;
   text-align: right;
-  padding-left: 200px;
 }
 
 .nav-bottom-right {
@@ -143,8 +127,6 @@ header {
   text-transform: uppercase;
 }
 
-
-
 .header-central::after {
   content: "";
   display: table;
@@ -152,42 +134,50 @@ header {
 }
 
 .header-central-foto {
-  height: 900px;
-  background-color: violet;
+  height: 695px;
+  background-color: #FEF6EF;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: bottom right;
+}
+
+.margin-photo {
+  background-color: #B0EBEA;
+  height: 82px;
+  width: 15%;
+  margin-top: 264px;
+  border: 3px solid #33475C;
+  border-right: none;
+  border-left: none;
 }
 
 .slogan {
   width: 75%;
   margin: auto;
-
 }
 
 .h1-slogan {
   padding-top: 50px;
-  margin-left: 200px;
 }
 
 .h5-slogan {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-left: 200px
+  line-height: 20px;
 }
 .h6-slogan {
   padding-top: 30px;
-  margin-left: 200px;
+
 }
 
 .orange {
-  background-color: orange;
+  background-color: #FF7A59;
   color: white;
   border-radius: 3px;
   border: none;
   padding: 15px 25px;
   font-size: 10px;
-  margin-left: 200px;
+
 }
 
 main {
@@ -213,7 +203,7 @@ text-align: left;
 }
 
 .cubo {
-  padding-left: 700px;
+  padding-left: 550px;
   margin-top: 70px;
 }
 
@@ -233,7 +223,6 @@ text-align: left;
   width: 75%;
   height: 370px;
   margin: auto;
-  /* border: 1px solid grey; */
   border-radius: 5px;
   box-shadow: 3px 3px 3px 3px lightgrey;
 
@@ -241,18 +230,17 @@ text-align: left;
 
 .book {
   float: left;
-  width: 35%;
+  width: 30%;
 }
 
 .testo-book {
   float: right;
-  width: 65%;
+  width: 60%;
+  line-height: 20px;
 
 }
 
 .book {
-  /* height: 400px;
-  background-color: red; */
   width: 40%;
 }
 
@@ -260,19 +248,18 @@ text-align: left;
   background-color: #fff;
   height: 200px;
   width: 200px;
-  margin-top: 40px;
-  margin-left: 300px;
+  margin-left: 250px;
 
 }
 
 .orange-book {
-  background-color: orange;
+  background-color: #FF7A59;
   color: white;
   border-radius: 3px;
   border: none;
   padding: 15px 25px;
   font-size: 10px;
-  margin-left: 350px;
+  margin-left: 300px;
 }
 
 hr {
@@ -282,13 +269,15 @@ hr {
   margin-left: 300px;
 }
 
-h1 {
+  .testo-book > h1 {
   padding-top: 50px;
 }
 
-h5 {
+.testo-book > h5 {
   padding-top: 30px;
   padding-bottom: 30px;
+
+
 
 }
 h6 {
@@ -298,8 +287,7 @@ h6 {
 
 
 .testo-book {
-  /* height: 400px;
-  background-color: pink; */
+  margin-top: 10px;
   width: 60%;
 
 }
@@ -311,11 +299,16 @@ h6 {
 
 .sezione1 {
   float: left;
-  width: 33.33%;
+  width: 30%;
   margin: 2px solid black;
-  height: 650px;
+  height: 670px;
   background-color: #fff;
   margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  margin-bottom: 50px;
+
+
 
 
 }
@@ -330,6 +323,7 @@ h6 {
   display: block;
   margin: 0 auto;
   padding-top: 30px;
+
 
 }
 
@@ -347,17 +341,22 @@ section h3 {
 }
 
 .check-main1-list  {
-  margin-left: 200px;
+  margin-left: 150px;
   list-style: none;
 }
 
 .far {
-  background-color: orange;
+
+  color: #fff;
+  border-radius: 50%;
+  background-color: #FF7A59;
+
+
 }
 
 section h5 {
    padding-top: 20px;
-   padding-bottom: 30px;
+   margin-bottom: 50px;
    text-align: center;
    line-height: 130%;
 }
@@ -372,10 +371,15 @@ section h2 {
 
 .sezione2 {
   float: left;
-  width: 33.33%;
-  height: 650px;
+  width: 30%;
+  height: 670px;
   background-color: #fff;
   margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  margin-bottom: 50px;
 }
 
 .borsa {
@@ -388,17 +392,20 @@ section h2 {
 
 .sezione2 hr {
   color: black;
-  width: 80px;
+  width: 270px;
   display: block;
   margin: 0 auto;
 }
 
 .sezione3 {
   float: left;
-  width: 33.33%;
-  height: 650px;
+  width: 30.00%;
+  height: 670px;
   background-color: #fff;
   margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  margin-bottom: 50px;
 
 }
 
@@ -412,20 +419,20 @@ section h2 {
 
 .sezione3 hr {
   color: black;
-  width: 80px;
+  width: 270px;
   display: block;
   margin: 0 auto;
   }
 
-  .orange-book1 {
-    background-color: orange;
-    color: white;
-    border-radius: 3px;
-    border: none;
-    padding: 15px 25px;
-    font-size: 10px;
-    margin-left: 250px;
-    margin-top: 50px;
+.orange-book1 {
+  background-color: #FF7A59;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 15px 25px;
+  font-size: 10px;
+  margin-left: 200px;
+  margin-top: 50px;
   }
 
 
@@ -438,100 +445,455 @@ section h2 {
   }
 
   .text-main2 {
-
     margin-top: 40px;
     text-align: center;
     color: #fff;
   }
 
   .griglia-main2 {
-
+    height: 450px;
     background-color: #06A5BD;
-    height: 500px;
-
 
   }
-
 
   .box-griglia-main2 {
     position: relative;
     height: 400px;
     width: 60%;
-    background-color: #fff;
-    margin: auto
+    margin: auto;
+    margin-top: 100px;
+
   }
 
   .box1 {
     position: absolute;
     width: 288px;
     height: 200px;
-    background-color: red;
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none
   }
+
+  .stretta {
+    margin-top: 20px;
+  }
+
+
+  .box1-text {
+    text-align: center;
+    color: #fff;
+  }
+
+  h1 {
+    margin-top: 20px;
+  }
+   h5 {
+     margin-top: 20px;
+   }
 
   .box2 {
     position: absolute;
     width: 288px;
     height: 200px;
-    background-color: black;
     margin-left: 288px;
+    border: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  .blogs {
+    margin-top: 20px;
+  }
 
 
+  .box2-text {
+    text-align: center;
+    color: #fff;
   }
 
   .box3 {
     position: absolute;
     width: 288px;
     height: 200px;
-    background-color: green;
     margin-left: 576px;
+    border: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+  }
 
+  .accademy {
+    margin-top: 20px;
+  }
+
+
+  .box3-text {
+    text-align: center;
+    color: #fff;
   }
 
   .box4 {
     position: absolute;
     width: 288px;
     height: 200px;
-    background-color: yellow;
     margin-left: 864px;
+    border: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  .inbound {
+    margin-top: 20px;
   }
 
 
+  .box4-text {
+    text-align: center;
+    color: #fff;
+  }
 
   .box5 {
     position: absolute;
     width: 288px;
     height: 200px;
-    background-color: blue;
     margin-top: 200px;
-
-
+    border: 1px solid white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
   }
+
+  .marketplace {
+    margin-top: 20px;
+    height: 60px;
+    width: 100px;
+  }
+
+  .box5-text {
+    text-align: center;
+    color: #fff;
+  }
+
   .box6 {
     position: absolute;
     width: 288px;
     height: 200px;
-    background-color: grey;
     margin-top: 200px;
     margin-left: 288px;
+    border: 1px solid white;
+    border-bottom: none;
+    border-right: none;
 
+
+  }
+
+  .mondo {
+    margin-top: 47px;
+  }
+
+  .box6-text {
+    text-align: center;
+    color: #fff;
   }
 
   .box7 {
     position: absolute;
     width: 288px;
     height: 200px;
-    background-color: violet;
     margin-top: 200px;
     margin-left: 576px;
+    border: 1px solid white;
+    border-bottom: none;
+    border-right: none;
 
+  }
+
+  .chat {
+    margin-top: 47px;
+  }
+
+  .box7-text {
+    text-align: center;
+    color: #fff;
   }
 
   .box8 {
     position: absolute;
     width: 288px;
     height: 200px;
-    background-color: orange;
     margin-top: 200px;
     margin-left: 864px;
+    border: 1px solid white;
+    border-bottom: none;
+    border-right: none;
+  }
+
+  .community {
+    margin-top: 60px;
+  }
+
+  .box8-text {
+    text-align: center;
+    color: #fff;
+  }
+
+
+  .main3 {
+    height: 210px;
+    width: 75%;
+    margin: auto;
+    background-color: white;
+  }
+
+  .color-main3 {
+    background-color: white;
+  }
+
+
+  .cifra {
+    float: left;
+    width: 40%;
+    height: 200px;
+    background-color: white;
+    text-align: center;
 
   }
+
+  .partner1 {
+    float: right;
+    width: 15%;
+    height: 100px;
+  }
+
+  .monkey {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+  }
+
+  .partner2 {
+    float: right;
+    width: 15%;
+    height: 100px;
+  }
+
+  .crowd {
+    width: 100px;
+    height: 20px;
+    margin-top: 30px;
+  }
+
+  .partner3 {
+    float: right;
+    width: 15%;
+    height: 100px;
+  }
+
+  .doordash {
+    width: 100px;
+    height: 15px;
+    margin-top: 30px;
+  }
+
+  .partner4 {
+    float: right;
+    width: 15%;
+    height: 100px;
+  }
+
+
+  .atlassian {
+    width: 100px;
+    height: 15px;
+    margin-top: 30px;
+  }
+
+  .partner5 {
+    float: right;
+    width: 15%;
+    height: 100px;
+  }
+
+  .vmware {
+    width: 100px;
+    height: 40px;
+  }
+
+  .partner6 {
+    float: right;
+    width: 15%;
+    height: 100px;
+  }
+
+  .classpass {
+    width: 100px;
+    height: 40px;
+
+  }
+
+  .partner7 {
+    float: right;
+    width: 15%;
+    height: 100px;
+  }
+
+  .wistia {
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+
+  }
+
+  .partner8 {
+    float: right;
+    width: 15%;
+    height: 100px;
+
+  }
+
+  .subaru {
+    width: 100px;
+    height: 40px;
+
+  }
+
+  .star {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-color: white;
+
+  }
+
+  .star-text {
+    margin-left: 350px;
+  }
+
+  .orange-main3 {
+    background-color: #FF7A59;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 15px 25px;
+    font-size: 10px;
+    margin-top: 50px;
+    }
+
+  .woman {
+    float: right;
+    width: 50%;
+    background-color: white;
+    height: 350px;
+
+  }
+
+  .woman-photo {
+    height: 300px;
+    width: 250px;
+    margin-left: 200px;
+
+  }
+
+.container-main4 {
+  width: 100%;
+  height: 600px;
+  background-color: #33475B;
+}
+
+.main4 {
+  height: 400px;
+  width: 80%;
+  margin: auto;
+
+}
+
+.link1 {
+  float: left;
+  width: 25%;
+  height: 400px;
+  color: white;
+  margin-top: 40px;
+}
+
+.link2 {
+  float: left;
+  width: 25%;
+  height: 400px;
+  color: white;
+  margin-top: 40px;
+}
+
+.link3 {
+  float: right;
+  width: 25%;
+  height: 400px;
+  color: white;
+  margin-top: 40px;
+}
+
+.link4 {
+  float: right;
+  width: 25%;
+  height: 400px;
+  color: white;
+  margin-top: 40px;
+}
+
+.list-link1, .list-link2, .list-link3, .list-link4 {
+  list-style: none;
+  color: white;
+}
+
+.list-link1 > li {
+  margin-top: 20px;
+}
+
+.list-link2 > li {
+  margin-top: 20px;
+}
+
+.list-link3 > li {
+  margin-top: 20px;
+}
+
+.list-link4 > li {
+  margin-top: 20px;
+}
+
+.button-footer {
+  color: black;
+  background-color: lightgrey;
+  border-radius: 3px;
+  border: none;
+  padding: 15px 25px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.social-list li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.lingue {
+  width: 100%;
+  text-align: center;
+}
+.lingue-list li {
+  display: inline;
+  padding-right: 20px;
+  color: white;
+
+}
+
+.sep-footer {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+
+}

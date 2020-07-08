@@ -4,8 +4,8 @@
   padding: 0;
 }
 
-header {
-  position: relative;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .header-container {
@@ -41,7 +41,6 @@ header {
 .nav-top-left {
   float: left;
   text-align: left;
-  padding-right: 200px;
 }
 
 .nav-top-left li {
@@ -52,7 +51,6 @@ header {
 .nav-top-right {
   float: right;
   text-align: right;
-  padding-left: 200px;
 }
 
 .header-top li {
@@ -104,6 +102,7 @@ header {
   float: left;
   text-align: left;
 }
+
 .footer-logo {
   height: 100px;
   width: 100px;
@@ -271,6 +270,7 @@ hr {
   padding-top: 50px;
 }
 
+
 .testo-book > h5 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -335,10 +335,9 @@ section h3 {
   list-style: none;
 }
 
-.far {
-  color: #fff;
-  border-radius: 50%;
-  background-color: #FF7A59;
+.fa-check-circle {
+  color: #FE775A
+
 }
 
 section h5 {
@@ -426,7 +425,7 @@ section h2 {
     content: "";
     display: table;
     clear: both;
-    background-color: #06A5BD;
+    background-image: linear-gradient(to right, #00A5BD, #00BCA5);
     width: 100%;
   }
 
@@ -438,7 +437,7 @@ section h2 {
 
   .griglia-main2 {
     height: 450px;
-    background-color: #06A5BD;
+
   }
 
   .box-griglia-main2 {
